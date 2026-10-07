@@ -15,21 +15,47 @@
     gtag('config', 'UA-61762788-2');
   </script>
   <style>
-    body{font-family:Georgia,serif;max-width:720px;margin:2rem auto;padding:0 1.2rem;line-height:1.7;color:#222}
+    body{font-family:Georgia,serif;margin:0;line-height:1.7;color:#222}
+    .wrap{max-width:720px;margin:0 auto;padding:0 1.2rem}
+    nav{margin:1.5rem auto 0}
     nav a{margin-right:1rem}
     h1,h2{line-height:1.25}
+    .site-header img{display:block;width:100%;height:auto}
+    .panel-image{
+      background-image:url("/images/Cross-Country-Bike-RIde.jpg");
+      background-position:center center;
+      background-repeat:no-repeat;
+      background-size:cover;
+      margin-top:1.5rem;
+    }
+    .panel-image-prop{padding-top:75%}
+    .cross-country .wrap{padding-bottom:2rem}
   </style>
 </head>
 <body>
-  <nav>
+  <header class="site-header">
+    <img src="/images/cropped-My-Happy-Bike-Header.jpg" width="2000" height="1201" alt="Cyclist riding a road bike on a rural two-lane road">
+  </header>
+  <nav class="wrap">
     <a href="/">Home</a>
     <a href="/coffee/">Coffee</a>
     <a href="/home/">Welcome</a>
   </nav>
-  <h1>Journey of Hope Cyclist Finnious Scott Finney</h1>
-  <p>Summer of 2017, Scott Finney was a cyclist on the Trans-America Journey of Hope Team. The 38 member team rode bicycles 4,330 miles coast to coast from Seattle Washington to Washington D.C. They rode to raise money and awareness for people with disabilities. Most of the team members had not met before arriving in Seattle the beginning of June. All members of Pi Kappa Phi Fraternity, they were from all over the nation and had joined chapters all over the nation.</p>
-  <p>I don’t recall when or when I bought this domain name, but it fits a website that talks about bicycle stuff.</p>
-  <h2>Coast Country Bike Ride</h2>
-  <p>The 38 man team was made up of thirty cyclist and eight support crew. Each morning started with a brief overview of the day’s ride and post ride schedule.</p>
+  <main>
+    <article class="wrap">
+      <h1>Journey of Hope Cyclist Finnious Scott Finney</h1>
+      <p>Summer of 2017, Scott Finney was a cyclist on the Trans-America Journey of Hope Team. The 38 member team rode bicycles 4,330 miles coast to coast from Seattle Washington to Washington D.C. They rode to raise money and awareness for people with disabilities. Most of the team members had not met before arriving in Seattle the beginning of June. All members of Pi Kappa Phi Fraternity, they were from all over the nation and had joined chapters all over the nation.</p>
+      <p>I don’t recall when or when I bought this domain name, but it fits a website that talks about bicycle stuff.</p>
+    </article>
+    <section class="cross-country" aria-labelledby="cross-country-title">
+      <div class="panel-image">
+        <div class="panel-image-prop"></div>
+      </div>
+      <div class="wrap">
+        <h2 id="cross-country-title">Coast Country Bike Ride</h2>
+        <p>The 38 man team was made up of thirty cyclist and eight support crew. Each morning started with a brief overview of the day’s ride and post ride schedule.</p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
